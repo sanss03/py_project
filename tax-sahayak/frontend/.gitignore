@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# ======================
+# 🔐 ENV (VERY IMPORTANT)
+# ======================
+.env
+.env.*
+*.env
+
+# ======================
+# 🐍 PYTHON BACKEND
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+env/
+.venv/
+
+# FastAPI / Python logs
+*.log
+
+# ======================
+# 🧪 TEST / CACHE
+# ======================
+.pytest_cache/
+.cache/
+
+# ======================
+# 📦 BUILD FILES
+# ======================
+build/
+*.egg-info/
+
+# ======================
+# 🗄️ DATABASE (if local)
+# ======================
+*.db
+*.sqlite3
+
+# ======================
+# 🔒 SECRET FILES
+# ======================
+config.json
+secrets.json
